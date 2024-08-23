@@ -6,11 +6,11 @@
 _offline="false"
 _git="false"
 pkgname=displayctl
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="8af416dc6898029b44407a9ef34b360a883006c8"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+_commit="5b2a7fd47655db2bf11632da3fda8ed8a1a37a21"
 pkgrel=1
 _pkgdesc=(
-  "Get/set MultiVNC settings."
+  "Manage displays."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -23,8 +23,6 @@ license=(
   AGPL3
 )
 depends=(
-  "bash"
-  "sqlite"
 )
 _os="$( \
   uname \
@@ -32,13 +30,13 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
-    "android-utils"
+    "android-display-utils"
+    "tsu"
   )
 optdepends=(
 )
 [[ "${_os}" == 'Android' ]] && \
   optdepends+=(
-    'android-vnc-viewer: uses this to seamlessly run MultiVNC'
   )
 makedepends=(
   make
@@ -70,7 +68,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="b314bc8d54479428c8ccca31a43fbad2e6e0503307dc41c6e70d5eda7e13f108"
+    _sum="e662df93365728dcdf52d4c304b07b000349a3710725908a502195ba7da11cfb"
   fi && \
     source+=(
       "${_tar}"
