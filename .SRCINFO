@@ -1,0 +1,18 @@
+pkgbase = displayctl
+	pkgdesc = Get/set MultiVNC settings.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/displayctl
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = bash
+	depends = sqlite
+	depends = android-utils
+	optdepends = android-vnc-viewer: uses this to seamlessly run MultiVNC
+	source = displayctl-1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34.zip::https://github.com/themartiancompany/displayctl/archive/1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 597e9cc53d9a2bdfb4a31711c5b104f5895324e6336083be8fddd8848da68794
+
+pkgname = displayctl
