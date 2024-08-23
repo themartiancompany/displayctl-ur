@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=displayctl
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="1b25a3923467ab17d2b8ce8c0bdc66a088e0ef34"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="8af416dc6898029b44407a9ef34b360a883006c8"
 pkgrel=1
 _pkgdesc=(
   "Get/set MultiVNC settings."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="597e9cc53d9a2bdfb4a31711c5b104f5895324e6336083be8fddd8848da68794"
+    _sum="b314bc8d54479428c8ccca31a43fbad2e6e0503307dc41c6e70d5eda7e13f108"
   fi && \
     source+=(
       "${_tar}"
