@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=displayctl
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
-_commit="5b2a7fd47655db2bf11632da3fda8ed8a1a37a21"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
+_commit="f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a"
 pkgrel=1
 _pkgdesc=(
   "Manage displays."
