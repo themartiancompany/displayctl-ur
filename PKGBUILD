@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=displayctl
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1.1
-_commit="f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a"
+_commit="28a4afdc07e5dcd80fe783bf24370586cf6c3d51"
 pkgrel=1
 _pkgdesc=(
   "Manage displays."
@@ -68,7 +68,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="e662df93365728dcdf52d4c304b07b000349a3710725908a502195ba7da11cfb"
+    _sum="f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a"
   fi && \
     source+=(
       "${_tar}"
