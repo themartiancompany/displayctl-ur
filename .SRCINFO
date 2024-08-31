@@ -9,8 +9,8 @@ pkgbase = displayctl
 	makedepends = make
 	depends = android-display-utils
 	depends = tsu
-	source = displayctl-f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a.zip::https://github.com/themartiancompany/displayctl/archive/f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a.zip
+	source = displayctl-28a4afdc07e5dcd80fe783bf24370586cf6c3d51.zip::https://github.com/themartiancompany/displayctl/archive/28a4afdc07e5dcd80fe783bf24370586cf6c3d51.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = e662df93365728dcdf52d4c304b07b000349a3710725908a502195ba7da11cfb
+	sha256sums = f1f4b1da28788ec092f72e84a78392211e629d58aac2fbc887d7d6eeed9efe9a
 
 pkgname = displayctl
